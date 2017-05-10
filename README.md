@@ -1,5 +1,5 @@
 
-这是我的[个人博客](www.ezlippi.com)采用的Hexo主题源码
+这是我的[个人博客](http://smartliby.github.io/)采用的Hexo主题源码
 
 ## 如何使用主题
 
@@ -7,7 +7,7 @@
 
 ``` bash
 $ cd hexo目录
-$ git clone https://github.com/EZLippi/hexo-theme themes/
+$ git clone https://github.com/smartliby/hexo-theme-next.git themes/
 ```
 
 ### 应用Hexo主题
