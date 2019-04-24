@@ -291,17 +291,24 @@ local_search:
 # Baidu Analytics ID
 baidu_analytics: 04528dfe051ff7bae4ef51896afc54ad
 
-# Duoshuo ShortName
-#duoshuo_shortname:
-#duoshuo_shortname: smartliby
-# Disqus
-#disqus_shortname: 李博玉
+gitalk:
+  enable: true
+  githubID: smartliby
+  repo: smartliby.github.io
+  ClientID: a1583845229156fa594a
+  ClientSecret: 888d0f868648be77cc2520b7fdd37ed63875b4d3
+  owner: smartliby
+  adminUser: smartliby
+  perPage: 10
+  pagerDirection: last
+  distractionFreeMode: true
+  createIssueManually: true
 
 # Hypercomments
 #hypercomments_id:
 
 # Gentie productKey
-gentie_productKey: a9173c686e0149e59a3f33de3489ab05
+# gentie_productKey: a9173c686e0149e59a3f33de3489ab05
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -317,7 +324,7 @@ gentie_productKey: a9173c686e0149e59a3f33de3489ab05
 # Share
 jiathis:
 # Warning: JiaThis does not support https.
-  add_this_id: 2133078
+#  add_this_id: 2133078
 
 # Share
 #duoshuo_share: true

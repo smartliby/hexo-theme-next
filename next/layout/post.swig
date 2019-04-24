@@ -22,6 +22,8 @@
         {% include '_partials/share/add-this.swig' %}
       {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
         {% include '_partials/share/duoshuo_share.swig' %}
+      {% elseif theme.gitalk.enable %}
+        {% include '_third-party/comments/gitalk.swig' %}
       {% endif %}
     </div>
   </div>
@@ -31,7 +33,6 @@
 {% block sidebar %}
   {{ sidebar_template.render(true) }}
 {% endblock %}
-
 
 {% block script_extra %}
   {% include '_scripts/pages/post-details.swig' %}
