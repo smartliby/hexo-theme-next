@@ -23,5 +23,25 @@
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
     </span>
   {% endif %}
+
+    <!-- 不蒜子计数初始值纠正 -->
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var int = setInterval(fixCount, 500);
+        var busuanziSiteOffset = parseInt({{ theme.busuanzi_count.busuanzi_site_offset }});
+        function fixCount() {
+            if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                clearInterval(int);
+                $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
+            }
+            if ($("#busuanzi_container_site_pv").css("display") != "none") {
+                clearInterval(int);
+                $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + busuanziSiteOffset);
+            }
+        }
+    });
+</script>
+
 </div>
 {% endif %}

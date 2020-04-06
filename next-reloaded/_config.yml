@@ -128,7 +128,8 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification: uHwAd7eII5mgbpt7ekS8ekNzJYC0s4TAIzrjzZWPapI
+# google_site_verification: uHwAd7eII5mgbpt7ekS8ekNzJYC0s4TAIzrjzZWPapI
+google_site_verification: MhERbSzyDDQbeT4auTdUlXOBKeztdNZS4I8CTqnvRhc
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -140,7 +141,8 @@ google_site_verification: uHwAd7eII5mgbpt7ekS8ekNzJYC0s4TAIzrjzZWPapI
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification: p4I4IiUhir
+# baidu_site_verification: p4I4IiUhir
+baidu_site_verification: DPjbAG5kZt
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
@@ -756,9 +758,9 @@ baidu_analytics: 04528dfe051ff7bae4ef51896afc54ad
 #growingio_analytics: #your projectId
 
 # Google Analytics
-#google_analytics:
-#  tracking_id:
-#  localhost_ignored: true
+google_analytics:
+ tracking_id: UA-162868181-1
+ localhost_ignored: true
 
 # CNZZ count
 #cnzz_siteid:
@@ -829,6 +831,7 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
   enable: true
+  busuanzi_site_offset: 54321
   total_visitors: true
   total_visitors_icon: user
   total_views: true
